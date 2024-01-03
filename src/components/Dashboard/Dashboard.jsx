@@ -28,7 +28,7 @@ function Dashboard() {
 
   return (
     <div className='h-full'>
-      <Sidebar className=' bg-red-200 h-lvh'
+      <Sidebar className=' bg-teal-100	 h-lvh'
         collapsed={menuCollapse}
         collapsedWidth="85px"
 
@@ -49,7 +49,7 @@ function Dashboard() {
           </span>
         </div>
 
-        <Menu className='font-bold border-double	rounded-md border-slate-400	m-2 bg-red-200'>
+        <Menu className='font-bold border-double rounded-md border-slate-400 border-2	m-2 bg-teal-100'>
           <MenuItem icon={<MdOutlineDashboardCustomize />}>Dashboard</MenuItem>
           <SubMenu icon={<GoProjectSymlink />
           } className='' label="Projects">
